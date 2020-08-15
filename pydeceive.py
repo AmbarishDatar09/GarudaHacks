@@ -9,7 +9,7 @@ cap=cv2.VideoCapture(0)
 
 #Creating a VideoWriterObject to save the output video
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('wizard_smaran.avi' , fourcc, 20.0, (640,480))
+out = cv2.VideoWriter('wizard_cloack.avi' , fourcc, 20.0, (640,480))
 
 #allow the system to sleep for 3 sec before webcam starts
 time.sleep(2)
