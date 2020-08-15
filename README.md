@@ -70,7 +70,7 @@ Second we specify the FourCC code. - FourCC is a 4-byte code used to specify the
 Third we specify the number of frames per second (fps) and frame size should be passed.
 Lastly we specify the isColor flag. If it is True, encoder expect color frame, otherwise it works with grayscale frame
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('wizard_smaran.avi' , fourcc, 20.0, (640,480))
+out = cv2.VideoWriter('wizard_cloack.avi' , fourcc, 20.0, (640,480))
 Extracting our background 
 We will replace the current frame pixels corresponding to the cloth with the background pixels to generate the effect of an invisibility cloak. For this we need to store the frame of a static background
 background = 0
