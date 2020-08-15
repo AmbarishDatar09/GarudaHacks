@@ -15,7 +15,7 @@ python3 or Anaconda should be installed
 opencv2 should be installed
 numpy should be installed
 
-Download the pydeceive.py file from this repo
+Download the invisibilitinator.py file from this repo
 Open the terminal and go the directory where it's saved
 Enter the command python pydeceive.py
 Your webcam will turn on in a few seconds
