@@ -55,7 +55,7 @@ while(cap.isOpened()):
     
     final_output = cv2.addWeighted(layer1 , 1, layer2 , 1, 0)
     
-    cv2.imshow('Invisible Smaran' , final_output)
+    cv2.imshow('Invisible cloack' , final_output)
     k=cv2.waitKey(10)
     
     #Keyboard Interupt
